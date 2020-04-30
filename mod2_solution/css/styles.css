@@ -10,11 +10,23 @@ h1
 	color: green;
 }
 
-h3
+.text1
 {
+	color: #117A65;
 	text-align: right;
-	padding-right: 2px;
-
+	padding-right: 10px;
+}
+.text2
+{
+	color: #16A085;
+	text-align: right;
+	padding-right: 10px;
+}
+.text3
+{
+	color: #A93226;
+	text-align: right;
+	padding-right: 10px;
 }
 p
 {
@@ -22,14 +34,46 @@ p
 	margin-right: auto;
 	width: 90%;
 	font-family: Helvetica sans-serif;
-	height: 150px;
+	height: auto;
+	padding:10px;
 }
 .row
 {
 	width: 100%;
 }
 
+.box1
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	height: auto;
+	background-color: #D7BDE2;
+}
+.box2
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	height: auto;
+	background-color: #A3E4D7;
 
+}
+
+.box3
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: #F5B7B1;
+	height: auto;
+}
 /*Desktop View*/
 @media(min-width:992px)
 {
@@ -37,8 +81,7 @@ p
 	.col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12
 	{
 		float: left;
-		background-color: gray;
-		margin: 1px;
+		border: 1px solid red;
 	}
 
 	.col-lg-1
@@ -97,9 +140,9 @@ p
 		.col-md-9, .col-md-10, .col-md-11, .col-md-12
 		{
 			float: left;
-			border: 1px solid blue;
-			background-color: gray;
-			margin:1px;
+			border: 1px solid green;
+
+	
 		}
 			.col-md-1
 			{
@@ -160,9 +203,7 @@ p
 	.col-sm-10, .col-sm-11, .col-sm-12
 	{
 		float: left;
-		border: 1px solid red;
-		background-color: gray;
-		margin:1px;
+		border: 1px solid blue;
 	}
 
 			.col-sm-1
@@ -213,4 +254,10 @@ p
 			{
 				width: 100%;
 			}
+}
+
+.resize
+{
+	color: #BA4E3A;
+	font-weight: bold;
 }
